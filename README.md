@@ -1,6 +1,6 @@
 # npmtest-director
 
-#### test coverage for  [director (v1.2.8)](https://github.com/flatiron/director)  [![npm package](https://img.shields.io/npm/v/npmtest-director.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-director) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-director.svg)](https://travis-ci.org/npmtest/node-npmtest-director)
+#### basic test coverage for  [director (v1.2.8)](https://github.com/flatiron/director)  [![npm package](https://img.shields.io/npm/v/npmtest-director.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-director) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-director.svg)](https://travis-ci.org/npmtest/node-npmtest-director)
 
 #### A client Side/Server Side Router
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-director/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-director/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-director/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-director/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-director/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-director/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-director/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-director/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-director/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-director/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-director/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-director/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "vows test/server/*/*-test.js --spec"
     },
-    "version": "1.2.8"
+    "version": "1.2.8",
+    "bin": {}
 }
 ```
 
